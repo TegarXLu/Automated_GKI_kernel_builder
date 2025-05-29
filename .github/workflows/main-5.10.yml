@@ -57,7 +57,7 @@ jobs:
       kernelDir: common_gki
       kernelSourceURL: https://github.com/TegarXLu/android_kernel_common-5.10-android12
       kernelName: common
-      kernelBranch: mahiru-primrose-schedhorizon
+      kernelBranch: mahiru-primrose-lxc
       kernelDevice: gki
       DEFCONFIG_NAME: gki_defconfig
 
