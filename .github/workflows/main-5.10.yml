@@ -55,9 +55,9 @@ jobs:
         repos: ${{ fromJSON(needs.Set-repos.outputs.repos) }}
     env:
       kernelDir: common_gki
-      kernelSourceURL: https://android.googlesource.com/kernel/common
+      kernelSourceURL: https://github.com/TegarXLu/android_kernel_common-5.10-android12
       kernelName: common
-      kernelBranch: android12-5.10-lts
+      kernelBranch: mahiru-primrose
       kernelDevice: gki
       DEFCONFIG_NAME: gki_defconfig
 
