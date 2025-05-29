@@ -55,9 +55,9 @@ jobs:
         repos: ${{ fromJSON(needs.Set-repos.outputs.repos) }}
     env:
       kernelDir: common_gki
-      kernelSourceURL: https://github.com/TegarXLu/android_kernel_common-5.10-android12
+      kernelSourceURL: https://github.com/Pzqqt/android_kernel_xiaomi_marble
       kernelName: common
-      kernelBranch: mahiru-primrose-lxc
+      kernelBranch: melt-rebase
       kernelDevice: gki
       DEFCONFIG_NAME: gki_defconfig
 
